@@ -15,6 +15,7 @@ end
 
 # Verbosity and settings that you pretty much just always are going to want.
 alias river="XKB_DEFAULT_LAYOUT=it river"
+alias rcow="fortune | cowsay -r | lolcat"
 alias cp="cp -iv"
 alias nnn="nnn -e"
 alias mv="mv -iv"
