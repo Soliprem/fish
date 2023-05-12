@@ -2,15 +2,15 @@ set -g fish_greeting
 set -g fish_key_bindings fish_hybrid_key_bindings
 greeting
 # Use neovim for vim if present.
-alias vim="nvim" 
+alias vim="nvim"
 alias vimdiff="nvim -d"
 
 # Use $XINITRC variable if file exists.
 [ -f "$XINITRC" ] && alias startx="startx $XINITRC"
 
 # sudo not required for some system commands
-for command in mount umount sv pacman updatedb su shutdown poweroff reboot;
-	alias $command="sudo $command"
+for command in mount umount sv pacman updatedb su shutdown poweroff reboot
+    alias $command="sudo $command"
 end
 
 # Verbosity and settings that you pretty much just always are going to want.
@@ -56,8 +56,6 @@ alias config="/usr/bin/git --git-dir=/home/soliprem/.cfg/ --work-tree=/home/soli
 alias z="zathura"
 
 alias cd..="cd .."
-alias wd=". wd"
-alias gd=". gd"
 alias lf="lfub"
 alias vifm="vifmrun"
 alias yay="paru"
