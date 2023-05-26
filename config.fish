@@ -57,7 +57,6 @@ alias z="zathura"
 
 alias cd..="cd .."
 alias lf="lfub"
-alias vifm="vifmrun"
 alias yay="paru"
 alias magit="nvim -c MagitOnly"
 #alias ref="shortcuts >/dev/null; source $XDG_CONFIG_HOME/shell/shortcutrc ; source $XDG_CONFIG_HOME/.config}/shell/zshnameddirrc"
